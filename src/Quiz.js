@@ -11,8 +11,8 @@
  */
 
 import React, { Component } from "react";
-import Header from "./Question1-Header";
-import LionsExhibit from "./Question2-LionsExhibit";
+import Header from "./Header";
+import LionsExhibit from "./LionsExhibit";
 import TigersExhibit from "./Question3-TigersExhibit";
 import MonkeysExhibit from "./Question4-MonkeysExhibit";
 import AnimalSpotter from "./Question5-AnimalSpotter";

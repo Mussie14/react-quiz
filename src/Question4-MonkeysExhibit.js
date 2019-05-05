@@ -6,7 +6,8 @@
 
 import React from "react";
 
-function MonkeysExhibit(props) {
+class MonkeysExhibit extends Component {
+  render(){
   return (
     <section className="monkeys">
       <h2>Latin name: {props.latinName}</h2>
@@ -17,6 +18,7 @@ function MonkeysExhibit(props) {
       </ul>
     </section>
   );
+      }
 }
 
 export default MonkeysExhibit;

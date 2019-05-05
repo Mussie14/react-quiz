@@ -10,6 +10,17 @@
 
 import React from "react";
 
-const LionsExhibit = () => null;
+class Lions extends Component {
+    render() {
+        return(
+            <div>
+               <h2> "Lions" </h2>
+               <p> "The mane is the most recognisable feature of the species"</p>
+            </div>
+        )
+    }
+}
+
+
 
 export default LionsExhibit;
